@@ -1,0 +1,159 @@
+/* Homepage CSS Code */
+
+header {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: inherit;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18.5px;
+    text-align: center;
+}
+
+body1 {
+    text-align: center;
+}
+
+/* Paragraph Code */
+
+.p {
+    margin-top: 25px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* Third Paragraph containing future project ideas, as well as current tasks that are being done to improve the website */
+
+#ThirdParagraph {
+    font-weight: bold;
+}
+
+#UnderThird {
+    margin-left: 25px;
+}
+
+/* Class for lists that are organized */
+
+.organizedlist {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+/* Banner Code */
+
+.nav {
+    background-color: grey;
+    color: #ffffff;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 12px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+
+/* Code for Dark Mode */
+
+section {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150vh;
+    box-sizing: border-box;
+    padding: 75px;
+    transition: 0s;
+}
+
+section.dark {
+    background: #262626;
+    color: #fff;
+    transition: 0.5s;
+}
+
+ul1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0px;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+    z-index:1;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;   
+}
+
+ul1.active{
+    border-color:#fff;
+}
+
+ul1 li {
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+ul1.active li {
+    transform: translateY(-30px)
+}
+
+ul1 li span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    color: #262626;
+    background: #fff;
+}
+
+ul1 li span:nth-child(1) {
+    background: #262626;
+    color: #fff;
+}
+
+/* List with current issues on the website */
+
+#List {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.Banner {
+    width: 100%;
+    margin-top: 0px;
+    display: block;
+}
+
+.Banner > .banner-image {
+    width: 100%;
+    height: 0%;
+    display: block;
+}

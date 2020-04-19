@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!-- This is the title of the tab on the website -->
+    <title>IB Notes Site Homepage</title>
+    <!-- Banner UI that is at the top of everypage. Used for navigation to different pages -->
+    <section>
+        <body>
+            <div style="width: 100%; height: 200px; overflow: hidden">
+                    <img src="img/banner2.jpg" width="100%;">
+                </div>
+            <!-- List contianing all the links for the other pages on the website -->
+            <ul class="nav">
+                <li><a href="chemsitry.html">Chemistry Notes</a></li>
+                <li><a href="physics.html">Physics Notes</a>
+                <li><a href="math.html">Math Notes</a></li>
+            </ul>
+        </body>
+    <main>
+        <font> 
+            <!-- Main header at the top of the webpage -->
+            <header>Rocco's Notes Webpage</header> 
+        </font>
+            <link rel="stylesheet" href="main.css">
+    </main>
+    <h1> Introduction and main page </h1>        
+    
+    <p class="p"> This is the main page where you will be able to go to different subjects with all of the notes that I have written over the few months / years.</p>
+    
+    <p1 class="p"> This webpage not only is helping you improve your coding skills, but it also helps you to keep your notes organized so that when you have to look over them for the IB tests as well as during college, you'll have them in your very own organized Dropbox / Google Drive.</p1>
+        
+    <p2 class="p">As of right now the site is currently under construction, and the following issues are persistant for specific pages on this website:</p2>
+        
+        <!-- Errors that are occuring in webpage bulletpoints / list -->
+        <ol>
+            <li class="organizedlist" id="List">
+                In the Chemistry Note section, there is a problem where the Dark / Light mode button isn't changing at all
+                    <ol>
+                        <li>Fixed</li>
+                    </ol>
+            </li>
+            <li class="organizedlist" >As of <mark>right now</mark>, all of the notes in the <mark>Physics section of the website have been uploaded and are ready to be downloaded at your leisure.</mark></li>
+                <ol>
+                    <li class="organizedlist" >Since the Physics section has been finished, I will soon be starting the ability for different students to upload their notes so as to further help students in need.</li>
+                </ol>
+        </ol>    
+         
+    <p3 class="p" id="ThirdParagraph">Current pages under construction, as well as future plans for this website.</p3>
+        <div>
+            <p4 class="p" id="UnderThird">The numbers represent what is currently being worked on, the further down the list, the less important that improvement is. </p4>
+            <ol class="organizedlist">
+                <li>Writing Topic 1 notes for Chemsitry</li>
+                    <ol>
+                        <li>Finished</li>
+                    </ol>
+                <li>The ability of different users being able to upload their notes to the website</li>
+                    <ol>
+                        <li>This would have to be in PDF format so that different people will be able to download the notes rather than re-copying them down.</li>
+                    </ol>
+                <li>Writing Topic 2 notes for Physics</li>
+                    <ol>
+                        <li>Finished</li>
+                    </ol>
+                <li>Uploading answers to differentiation and integration questions on the SL book.</li>
+                <li>Writing Topic 2 notes for Chemistry</li>
+                <li>Coding new page for Math Notes</li>
+                <li>Adding a feature to have the website generate random math questions that I have gathered from past papers so that I will be able to practice them.</li>
+                <li>Adding Past Paper questions for practice</li>
+                    <ol>
+                        <li>The past paper questions should also include worked examples so that if someone gets somethin wrong they'll be able to understand how to work out the probelm themselves once they read the answers. </li>
+                    </ol>
+            </ol>
+        </div>
+        <center>
+            <mark>THERE HAS BEEN AN OVERHAUL TO THE WEBISTE, RATHER THAN TYPING IN THE NOTES, THE FIRST PAGE OF THE NOTES WILL BE WRITTEN IN SO THAT THE PEOPLE CAN GET A GOOD IDEA OF WHAT THE TOPIC IS ABOUT, AND THEN A PDF WILL BE THERE TO BE DOWNLOADED. </mark>
+        </center>
+        <br>
+        <!-- Notes Upload Section Code -->
+        <h2>Upload Your Notes Here:</h2>
+            <body1>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file">
+                    <input type="submit" value="submit">
+                </form>
+            </body1>
+        <!-- Comments Section Code -->
+            <body2>
+                <form action="comment.php" method="post">
+                    <label> Name: 
+                        <br>
+                        <input type="text" name="name">
+                        <br>
+                    </label>
+                    <label>
+                        Message:
+                        <br>
+                        <textarea cols="45" rows="5" name="mes"></textarea>
+                    </label>
+                    <br>
+                    <input type="submit" name="post" value="Post">
+                </form>
+            </body2>
+    <!-- Dark Mode Button Code -->
+    <ul1>
+        <li id="DarkModeElements">
+            <span>Dark Mode</span>
+            <span>Light Mode</span>
+        </li>
+    </ul1>
+ <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <script type="text/javascript">
+    $(document).ready(function(){
+        $('ul1').click(function(){
+            $('ul1').toggleClass('active')
+            $('section').toggleClass('dark')
+        })
+    })
+ </script>
+ </section>
+</html>

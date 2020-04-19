@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+    <html>
+        <link rel="stylesheet" href="math.css">
+        <title>IB Math Notes and Exercises</title>
+        <section>
+            <body>
+                <!-- Banner Code -->
+                <div style="width: 100%; height: 200px; overflow: hidden;">
+                    <img src="img/banner4.jpg" width="100%:">
+                </div>
+                <!-- UI Section -->
+                    <ul class="nav">
+                        <li><a href="main.html">Homepage</a></li>
+                        <li><a href="chemsitry.html">Chemistry Notes</a></li>
+                        <li><a href="physics.html">Physics Notes</a></li>
+                    </ul>
+            </body>
+            <ul1>
+                <li id="DarkModeElements">
+                    <span>Dark Mode</span>
+                    <span>Light Mode</span>
+                </li>
+            </ul1>
+             <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+             <script type="text/javascript">
+                $(document).ready(function(){
+                    $('ul1').click(function(){
+                        $('ul1').toggleClass('active')
+                        $('section').toggleClass('dark')
+                    })
+                })
+            </script>
+        </section>
+    </html>

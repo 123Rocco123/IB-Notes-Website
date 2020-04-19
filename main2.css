@@ -1,0 +1,154 @@
+/* Physics HTML Page CSS Code */
+
+header {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: inherit;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#MainHeading {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+body3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+div {
+    text-align: left;
+}
+
+section2 {
+    float: right;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid black;
+}
+
+/* Links Code */
+
+section1 {
+    text-align: left;
+}
+
+/* Paragraph Code */
+
+p, p1, p2 {
+    margin-top: 25px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* Banner Code */
+
+.nav {
+    background-color: grey;
+    color: #ffffff;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 12px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
+
+/* Code for Dark Mode */
+
+section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 190vh;
+    box-sizing: border-box;
+    padding: 75px;
+    transition: 0s;
+}
+
+section.dark {
+    background: #262626;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Banner Code */
+
+ul1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+    z-index:1;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+ul1.active{
+    border-color:#fff;
+}
+
+ul1 li {
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+ul1.active li {
+    transform: translateY(-30px)
+}
+
+ul1 li span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    color: #262626;
+    background: #fff;
+}
+
+ul1 li span:nth-child(1) {
+    background: #262626;
+    color: #fff;
+}
+
+/* Bulletpoints Code */
+
+#bulletpoints {
+    margin: 0 100px 0 20px;
+    font-size: 12px;
+}
