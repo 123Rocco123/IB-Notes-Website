@@ -34,6 +34,19 @@ h2 {
     text-align: center;
 }
 
+/* Chemistry Image Code */
+
+section2 {
+    float: right;
+    padding: 5px 0px 0px 5px;
+    border: 2px solid black;
+}
+
+#ChemistryMeme {
+    height: 640px;
+    width: 729px;;
+}
+
 #TopicOneTitle {
     text-align: left;
     font-size: 15px;
