@@ -101,3 +101,8 @@ ul1 li span:nth-child(1) {
     margin: 0 100px 0 20px;
     font-size: 12px;
 }
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
