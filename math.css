@@ -106,3 +106,17 @@ h1 {
     font-size: 30px;
     text-align: center;
 }
+
+/* Discrete Mathematics with Applications Textbook Code */
+
+.Headings {
+    font-size: 15px;
+    padding: 0 0 0 10px;
+    font-weight: bold;
+}
+
+.Download Links {
+    font-size: 15px;
+    padding: 0 0 0 15px;
+}
+
